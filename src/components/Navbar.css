@@ -1,0 +1,30 @@
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  padding: 1.2rem 4rem;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+.navbar__container-Logo {
+  font-weight: bolder;
+  color: blue;
+  font-size: 2.4rem;
+  letter-spacing: 0px;
+}
+
+.navbar__container-Logo {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 2rem;
+}
+.navbar__container-LoginDetails {
+  position: relative;
+}
+.navbar__container-LoginDetails > span {
+  position: absolute;
+  top: 10px;
+  left: -8rem;
+  font-weight: lighter;
+  font-size: 1.3rem;
+}

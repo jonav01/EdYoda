@@ -1,0 +1,24 @@
+.moduleGridContainer {
+  display: grid;
+  grid-template-columns: 8rem 1fr 3fr;
+}
+
+.moduleSidebar {
+  padding: 2rem 4rem;
+  background-color: #f0f0fa;
+  font-family: "Poppins";
+}
+.module__sectionFlexbox {
+  display: flex;
+  color: black !important;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+/* .module__sectionFlexbox:active {
+  background-color: red;
+} */
+.moduleIcon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}

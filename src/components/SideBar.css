@@ -1,0 +1,8 @@
+.sideBar__container {
+    display: block;
+    background-color: #020642;
+    color: white;
+    padding: 2rem 0.9rem;
+    text-align: center;
+    font-size: 0.8rem;
+}

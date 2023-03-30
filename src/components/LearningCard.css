@@ -1,0 +1,47 @@
+.learningCard__container {
+  background-color: white;
+  border: 1px solid #9fd4f2;
+  padding: 1rem 2rem;
+}
+.learningCard__heading {
+  display: flex;
+  flex-direction: row;
+}
+.learningCard__userContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.learningCard__userContainer > p {
+    margin-bottom: 4px;
+}
+.userContainer {
+    display: flex;
+}
+.learningCard__user {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.learningCard__section {
+    margin-top: 2rem;
+}
+.learningSection__flexContainer {
+    display: flex;
+}
+.progress__flexContainer {
+    margin-left: 2rem;
+    font-size: 0.4rem;
+}
+.learningSection__flexContainer > span {
+    width: 7rem;
+    margin-bottom: 1.2rem;
+}
+.progress {
+    width:8rem;
+    border-radius: 10px;
+    height: 10px;
+    background-color: #9fd4f2;
+
+}

@@ -1,0 +1,58 @@
+.certficationcardGrid__container {
+    display: grid;
+    grid-template-columns: 8rem auto auto auto;
+    background-color: #ffff;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+}
+.card__section1-tags{
+    font-size: 0.6rem;
+    font-weight: 900;
+    opacity: 0.6;
+    background-color: #f2f2fa;
+    width: max-content;
+    padding: 0.1rem 2rem;
+    margin-bottom: 0.7rem;
+    border-radius: 30px;
+}
+.card__section1-endingtags {
+    font-size: 0.6rem;
+    font-weight: 900;
+    opacity: 0.6;
+    margin-top: 0.4rem;
+    background-color: #9fd4f2;
+    width: max-content;
+    padding: 0.1rem 2rem;
+    margin-bottom: 0.7rem;
+    border-radius: 30px;
+}
+.card__section2-heading{
+    padding-bottom: 1rem;
+}
+.card__section2-rounds>span {
+    margin-left: 1rem;
+    padding: 0.1rem 2rem;
+    font-size: 0.6rem;
+    font-weight: 900;
+    border-radius: 30px;
+    opacity: 0.6;
+    background-color: #9fd4f2;
+}
+.card__section2-rounds{
+    margin-bottom: 0.5rem;
+}
+.card__section3{
+    padding: 2rem 4rem;
+}
+.card__section3 > button {
+    border-radius: 30px;
+    color: #38aeec;
+    font-family: 'Poppins';
+    background-color: #ffff;
+    border: 1px solid #38aeec;
+    padding: 0.4rem 1rem;
+}
+.card__section3 > button:hover {
+    background-color: #38aeec;
+    color: #ffff;
+}

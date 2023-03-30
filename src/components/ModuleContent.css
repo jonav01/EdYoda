@@ -1,0 +1,30 @@
+.moduleContentContainer {
+    background-color: #f2f6ff;
+    height: 63.1vh;
+    padding: 4rem;
+    font-family: 'Poppins';
+}
+.moduleContent--header {
+    font-size: 1.6rem;
+    margin-bottom: .4rem;
+}
+.moduleContent--subheader {
+    font-size: 1rem;
+    opacity: 0.4;
+    margin-bottom: 2rem;
+}
+.moduleContent--details {
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.moduleContent {
+    display: flex;
+    justify-content: space-between;   
+}
+.moduleContent--header-section {
+    display: flex;
+}
+.moduleContent--header-subsection {
+    margin-right: .5rem;
+    text-align: center;
+}

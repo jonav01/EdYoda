@@ -1,0 +1,21 @@
+.homeGridContainer {
+  display: grid;
+  grid-template-columns: 8rem auto;
+  z-index: 1;
+  font-family: "Poppins";
+}
+.home__section {
+  background-color: #f0f6ff;
+  padding: 4rem 6rem;
+}
+.home__section-heading {
+  padding-bottom: 2rem;
+  font-weight: 100;
+}
+.homeSection__subGrid {
+  display: grid;
+  grid-template-columns: 50ch 30ch auto;
+}
+.progressContainer {
+  margin-left: 2rem;
+}

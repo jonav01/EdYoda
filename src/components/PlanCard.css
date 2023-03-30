@@ -1,0 +1,41 @@
+.planCard__container {
+  background-color: #ffff;
+  padding: 2rem;
+  border: 1px solid #9fd4f2;
+}
+.planCard__heading {
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+.planCard__subheading {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-bottom: 2rem;
+}
+.planCard__textHeading{
+    font-size: 1.4rem;
+    font-weight: 200;   
+    color: #9fd4f2;
+}
+.planCard__details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .4rem;
+    font-size: .8rem;
+}
+.planCard__details > span:last-child {
+    font-style: italic;
+    color: #9fd4f2;
+}
+.planCard__button {
+    margin-top: 10px;
+    padding: 1.1rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Poppins';
+}
+.planCard__time {
+    opacity: 0.5;
+    font-size: .8rem;
+    margin-top: .7rem;
+}

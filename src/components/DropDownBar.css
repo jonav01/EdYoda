@@ -1,0 +1,40 @@
+.dropdownBar__container {
+  display: flex;
+  background-color: #020642;
+  color: white;
+  padding: 1rem 4rem;
+  font-family: "Poppins";
+}
+.dropdownBar__container-Code {
+    font-size: 1.5rem;
+    margin-right: 6px;
+}
+.dropdownBar__container-CourseName {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+.dropdownBar__container-Subsection {
+    z-index: 10;
+    background-color: #020642;
+    color: white;
+    font-family: "Poppins";
+    padding-left: 4rem;
+}
+.dropdownBar__container-Subsection__heading{
+    margin-bottom: 2rem;
+}
+.dropdownBar__container-Subsection_courses {
+    display: flex;
+    padding-bottom: 4rem;
+}
+.dropDown-links {
+    text-decoration: none;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+.dropDown-links:active {
+    background-color: white;
+    color: #020642;
+}
